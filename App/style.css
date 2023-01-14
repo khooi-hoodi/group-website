@@ -11,6 +11,12 @@ body {
   min-width: 750px;
 }
 
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 35px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -43,8 +49,11 @@ header {
   min-width: 750px;
 }
 
-.home-icon {
+.all-caps {
   font-family: 'Bebas Neue', cursive;
+}
+
+.home-icon {
   font-size: 30px;
   margin-left: 20px;
   margin-top: 3px;
@@ -69,15 +78,34 @@ header {
 }
 
 .title {
-  font-family: 'Bebas Neue', cursive;
   font-size: 200px;
   margin-top: 150px;
   line-height: 180px;
   margin-left: 50px;
+  margin-bottom: 150px;
   cursor: default;
 }
 
 .general-description {
   margin: 0 50px;
   font-size: 40px;
+}
+
+.subheading {
+  margin-left: 50px;
+  font-size: 60px;
+  margin-top: 100px;
+  color: rgb(255, 183, 0);
+}
+
+#team-profile,
+#description,
+#skills-jobs,
+#project-outcomes,
+#reflection {
+  padding: 1px;
+}
+
+.description-text {
+  font-size: 25px;
 }
