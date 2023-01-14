@@ -28,11 +28,6 @@ a:hover {
   cursor: pointer;
 }
 
-span {
-  text-decoration: none;
-  color: rgb(255, 183, 0);
-}
-
 header {
   background-color: black;
   position: fixed;
@@ -47,6 +42,24 @@ header {
   justify-content: space-between;
   align-items: center;
   min-width: 750px;
+}
+
+.letter {
+  color: white;
+  transition: 0.1s;
+}
+
+.letter:hover {
+  color: rgb(255, 183, 0);
+}
+
+.connect4 {
+  color: rgb(255, 183, 0);
+  transition: 0.1s;
+}
+
+.connect4:hover {
+  color: white;
 }
 
 .all-caps {
@@ -86,6 +99,10 @@ header {
   cursor: default;
 }
 
+.ringo-link {
+  color: rgb(255, 183, 0);
+}
+
 .general-description {
   margin: 0 50px;
   font-size: 40px;
@@ -107,5 +124,11 @@ header {
 }
 
 .description-text {
+  font-size: 25px;
+}
+
+li {
+  margin-left: 100px;
+  margin-right: 50px;
   font-size: 25px;
 }

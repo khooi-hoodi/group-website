@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ringo the RMIT Helper</title>
+  </head>
+  <body>
+    <header>
+      <button class="rmit-connect-icon">
+        <a
+          href="https://rmit.service-now.com/connect_vn/?id=rmit_index_vn"
+          target="blank"
+          ><img src="./images/rmit-connect-blue (1).png" alt="rmit-connect"
+        /></a>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a
+            href="https://myapps.rmit.edu.au/nidp/app/login"
+            target="_blank"
+            class="nav-link"
+          >
+            Login as RMIT Student or Staff
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://rmit.service-now.com/connect_vn/?id=rmit_index_login"
+            target="_blank"
+            class="nav-link"
+          >
+            Login as Guest
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://rmit.service-now.com/connect_vn/?id=sc_home"
+            target="_blank"
+            class="nav-link"
+          >
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://rmititsm.service-now.com/sp"
+            target="_blank"
+            class="nav-link"
+            >ITS Services & Support</a
+          >
+        </li>
+      </ul>
+      <button class="hamburger-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </header>
+    <main>
+      <section class="description">
+        <h1>
+          Hi, I'm <a class="ringo-link" href="#dialogflow">Ringo</a> the RMIT
+          Helper!
+        </h1>
+        <div>
+          <p class="ringo-description">
+            I am a chatbot created in order to help RMIT students with enquiries
+            and appointments.
+          </p>
+          <p class="ringo-description">
+            I was created by DialogFlow, a bot service that incorporates basic
+            machine learning and AI in order to answer (most of) your questions!
+          </p>
+          <p class="ringo-description">
+            I hope that I can make your experience at RMIT a bit easier.
+            Welcome!
+          </p>
+        </div>
+        <div class="handy-links">
+          <p class="subheader">Handy Links</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.rmit.edu.vn/students/my-studies/class-timetables"
+                target="_blank"
+              >
+                myTimetable
+              </a>
+            </li>
+            <li>
+              <a href="https://oes.rmit.edu.vn" target="_blank">
+                Online Enrolment System
+              </a>
+            </li>
+            <li>
+              <a href="https://library.rmit.edu.vn" target="_blank">
+                RMIT Vietnam Library
+              </a>
+            </li>
+            <li>
+              <a href="https://sspr.rmit.edu.vn" target="_blank">
+                Password Reset for Student Accounts
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://rmit.service-now.com/connect-vn/?id=guest_password_reset"
+                target="_blank"
+              >
+                Password Reset for Guest Accounts
+              </a>
+            </li>
+            <li>
+              <a href="https://rmit.instructure.com" target="_blank">
+                LMS (Canvas)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.rmit.edu.vn/students" target="_blank">
+                RMIT Vietnam Website
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.rmit.edu.vn/students/my-studies/enrolments-and-courses/confirmation-of-enrolment"
+                target="_blank"
+              >
+                Confirmation of Enrolment
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.rmit.edu.vn/students/support/it-support"
+                target="_blank"
+              >
+                IT Support
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="commands-list">
+          <p class="subheader">How to Command</p>
+          <p>
+            I operate using key words. This means that I do not require strict
+            commands where you have to get everything right - a question with
+            the right words is all I need! Ask me a question and I'll try my
+            best to answer your concern.
+          </p>
+        </div>
+      </section>
+      <iframe
+        id="dialogflow"
+        allow="microphone;"
+        src="https://console.dialogflow.com/api-client/demo/embedded/f2f94bca-5fda-4199-bfdb-7129285c6bd4"
+      >
+      </iframe>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
